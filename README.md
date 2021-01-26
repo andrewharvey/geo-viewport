@@ -72,7 +72,7 @@ console.log(center);
 
 ## api
 
-### `viewport(bounds, dimensions, minzoom, maxzoom, tileSize, allowFloat)`
+### `viewport(bounds, dimensions, minzoom, maxzoom, tileSize, allowFloat, padding)`
 
 Given a `WSEN` array of bounds and a `[x, y]` array of pixel dimensions, return a `{ center: [lon, lat], zoom: zoom }` viewport. Use `allowFloat` to retain float values in the output.
 
